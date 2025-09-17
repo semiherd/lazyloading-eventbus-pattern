@@ -1,0 +1,23 @@
+* { 
+    box-sizing: border-box; 
+    margin: 0; 
+    padding: 0; 
+    }
+ul { 
+    list-style: none; 
+}
+nav { 
+    font-family: Arial, 
+    sans-serif; position: 
+    relative; z-index: 100; 
+    }
+nav > ul { 
+    display: flex; 
+    align-items: center; 
+    }
+
+@media (max-width: 768px) { 
+    nav > ul { 
+        flex-direction: column; 
+    } 
+}
